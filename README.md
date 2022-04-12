@@ -12,7 +12,9 @@ To create a *hash*, use the following format:
 ### Examples
 
 `OP_FALSE OP_RETURN hash 0xb4056df6691f8dc72e56302ddad345d65fead3ead9299609a826e2344eb63aa4 Bitcoin`
+
 `OP_FALSE OP_RETURN hash 0x6d85bc0dd47219b5e674459d8fd392b672752474a6204a20fa85c27ab8389f80 Created by Satishi Nakamoto`
+
 `OP_FALSE OP_RETURN hash 0x251622657b440e90a92dda4411d73117f3b279ab42529d43e8d69cc2cf7fc5c1 Just a dummy comment`
 
 
@@ -33,6 +35,7 @@ Imagine *point* as the starting point vector and *destination* as its direction.
 ### Examples
 
 `OP_FALSE OP_RETURN link 0x6d85bc0dd47219b5e674459d8fd392b672752474a6204a20fa85c27ab8389f80 0xb4056df6691f8dc72e56302ddad345d65fead3ead9299609a826e2344eb63aa4 0`
+
 `OP_FALSE OP_RETURN link 0x251622657b440e90a92dda4411d73117f3b279ab42529d43e8d69cc2cf7fc5c1 0xb4056df6691f8dc72e56302ddad345d65fead3ead9299609a826e2344eb63aa4 1`
 
 
@@ -51,4 +54,5 @@ The user can change evaluation by pushing another evaluation. Only the last eval
 ### Examples
 
 `OP_FALSE OP_RETURN eval 0x6d85bc0dd47219b5e674459d8fd392b672752474a6204a20fa85c27ab8389f80 0`
+
 `OP_FALSE OP_RETURN eval 0x251622657b440e90a92dda4411d73117f3b279ab42529d43e8d69cc2cf7fc5c1 1`
